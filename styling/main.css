@@ -291,6 +291,14 @@ a:hover {
     color: var(--nav-scrolled-text);
 }
 
+[data-theme="dark"] .logo-text {
+    color: #e4f0f6;
+}
+
+[data-theme="dark"] .nav.scrolled .logo-text {
+    color: var(--nav-scrolled-text);
+}
+
 .nav-menu {
     display: flex;
     gap: var(--space-8);
@@ -307,6 +315,14 @@ a:hover {
 }
 
 .nav.scrolled .nav-link {
+    color: var(--nav-scrolled-link);
+}
+
+[data-theme="dark"] .nav-link {
+    color: #c8dce6;
+}
+
+[data-theme="dark"] .nav.scrolled .nav-link {
     color: var(--nav-scrolled-link);
 }
 

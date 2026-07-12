@@ -9,7 +9,14 @@
     function handleNavScroll() {
         const scrollY = window.scrollY;
         const hero = document.getElementById('hero');
-        const heroHeight = hero ? hero.offsetHeight : window.innerHeight;
+        
+        // If no hero element, apply scrolled style immediately
+        if (!hero) {
+            nav.classList.add('scrolled');
+            return;
+        }
+        
+        const heroHeight = hero.offsetHeight;
         const triggerPoint = heroHeight * 0.3;
 
         if (scrollY > triggerPoint) {

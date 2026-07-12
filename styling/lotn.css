@@ -194,13 +194,6 @@
     }
 }
 
-.status-text {
-    font-size: var(--text-sm);
-    color: var(--color-slate);
-    font-weight: 500;
-}
-
-
 .lotn-screenshots {
     text-align: center;
 }
