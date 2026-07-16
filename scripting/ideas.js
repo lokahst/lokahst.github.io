@@ -18,52 +18,55 @@
       status: '1',
       description: 'Connects survival+weight system updates. Seasons, carry weight, resting, injuries, fast traveling, and time management.'
     },
-
-    // Working on ---------------------
-
     {
       name: 'Enviromental update 2',
-      status: '2',
+      status: '1',
       description: 'More survival-like features.'
     },
     {
       name: 'Re-effecting update',
-      status: '2',
+      status: '1',
       description: 'Adds new spell effects, particles, potions, and combat visuals.'
     },
     {
       name: 'Adventure update',
-      status: '2',
+      status: '1',
       description: 'Achievements, quests, side jobs.'
     },
     {
       name: 'Per-Player',
-      status: '2',
+      status: '1',
       description: 'Every single mob, loot, quest, etc.. will be different for every player.'
     },
     {
       name: 'PlaceholderAPI Support',
-      status: '2',
+      status: '1',
       description: 'Add PlaceholderAPI support for compatibility with other plugins.'
     },
     {
       name: 'Combat update',
-      status: '2',
+      status: '1',
       description: 'World bosses, armor rework, weapons rework, enchanting rework.'
     },
     {
-      name: 'Magicka update',
-      status: '2',
-      description: 'Spells learning, spell books, magic potions.'
-    },
-    {
       name: 'Alchemy & Crafting update',
-      status: '2',
+      status: '1',
       description: 'New alchemy and crafting system. Creating new potions with various effects, using different ingredients.'
     },
 
-    // Planned ---------------------
+    // Working on ---------------------
 
+    // Planned ---------------------
+    {
+      name: 'Web Panel',
+      status: '3',
+      description: 'A web-based control panel for managing whole plugin.'
+    },
+    {
+      name: 'Magicka update',
+      status: '3',
+      description: 'Spells learning, spell books, magic potions.'
+    },
     {
       name: 'Reimagination update',
       status: '3',
